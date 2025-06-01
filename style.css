@@ -27,7 +27,7 @@ main {
     background-color: var(--grey800);
     border-radius: 15px;
     padding: 20px;
-    padding-bottom: 15px;
+    padding-bottom: calc(20px - 7px);
     padding-top: 0;
     width: 285px;
     margin-bottom: 10px;
@@ -95,9 +95,9 @@ p {
 
 @media only screen and (min-width: 600px) {
     main {
-        padding: 20px;
+        padding: 40px;
         padding-top: 0;
-        padding-bottom: calc(20px - 7px);
+        padding-bottom: calc(40px - 7px);
     }
     img {
         margin: 30px;
